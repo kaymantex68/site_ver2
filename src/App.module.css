@@ -1,0 +1,88 @@
+.Background{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+
+}
+.main_window{
+    /* background-color: darkcyan; */
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-rows: 40px auto ;
+    
+}
+
+.div1{
+    background-color: darkgray;
+}
+
+ .div2{
+    position: relative;
+    display: grid ;
+    grid-template-columns: 33% auto ;
+    /* background-color: darkorange; */
+    overflow: hidden;
+}
+
+.div3{
+    position: relative;
+    background-color: darkslateblue;
+}
+
+.div4{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    /* background-color: deepskyblue; */
+    top:0;
+    transition: 0.5s;
+    
+} 
+
+.div4_2{
+    top:-100%;
+    transition: 0.5s;
+    background-color: deepskyblue;
+    position: relative;
+}
+
+.Link{
+    color: white;
+}
+
+.Link:hover{
+    cursor: pointer;
+}
+
+.div5{
+    position: relative;
+    background-color: yellowgreen;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.div5_2{
+    position: relative;
+    background-color: yellowgreen;
+    bottom: -100%;
+    transition: 0.5s;
+} 
+
+
+.div6{
+    position: relative;
+    background-color: goldenrod;
+    top: 0;
+    transition: 0.5s;
+} 
+
+.div6_2 {
+    position: relative;
+    background-color: goldenrod;
+    top:-100%;
+    transition: 0.5s;
+}
