@@ -14,11 +14,12 @@ code {
 
 @font-face{
   font-family: pixel;
-  src:url('../src/Samson.ttf');
+  src:url('../src/Anonymous Pro.ttf');
 }
 
 *{
   font-family: pixel;
+  font-size: 12px;
   margin: 0;
   padding: 0;
 }
