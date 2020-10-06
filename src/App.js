@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className={classes.Background}>
-        background нужно что бы здесь была очень длиная надпись , прям длянная что капец, а теперь , позвоните нам: +7 920 4897437
+        Позвоните нам: +7 920 4897437. Мы можем всякое...
     </div>
       <div className={classes.main_window}>
         <div className={classes.div1}>
@@ -24,11 +24,11 @@ function App() {
           <div className={classes.div3}>
             <div className={(number3 === true) ? classes.div_left : classes.div_left_2}>
               <ul>
-                <li className={classes.Link} onClick={() => { setNumber(!number); setNumber1(number1); setNumber2(false); setNumber3(true); setNumber4(true);}}>main</li>
-                <li className={classes.Link} onClick={() => { setNumber(false); setNumber1(false); setNumber2(false); setNumber3(false); setNumber4(false);}}>monitor</li>
-                <li className={classes.Link} onClick={() => { setNumber(number); setNumber1(!number1); setNumber2(false); setNumber3(true);setNumber4(true);}}>second</li>
-                <li className={classes.Link} onClick={() => { setNumber(false); setNumber1(false); setNumber2(!number2); setNumber3(true);setNumber4(true);}}>big</li>
-                <li className={classes.Link} onClick={() => { setNumber(false); setNumber1(false); setNumber2(number2); setNumber3(!number3);setNumber4(true);}}>left menu</li>
+                <li className={classes.Link} ><span className={classes.span_Link} onClick={() => { setNumber(!number); setNumber1(number1); setNumber2(false); setNumber3(true); setNumber4(true);}}>main</span></li>
+                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setNumber(false); setNumber1(false); setNumber2(false); setNumber3(false); setNumber4(false);}}>contacts</span></li>
+                <li className={classes.Link}> <span className={classes.span_Link} onClick={() => { setNumber(number); setNumber1(!number1); setNumber2(false); setNumber3(true);setNumber4(true);}}>second</span></li>
+                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setNumber(false); setNumber1(false); setNumber2(!number2); setNumber3(true);setNumber4(true);}}>big</span></li>
+                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setNumber(number); setNumber1(number1); setNumber2(number2); setNumber3(!number3);setNumber4(number4);}}>left menu</span></li>
               </ul>
             </div>
           </div>
