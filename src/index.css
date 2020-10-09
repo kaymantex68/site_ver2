@@ -24,3 +24,7 @@ code {
   margin: 0;
   padding: 0;
 }
+
+@media screen and (min-width: 1200px) and (orientation: landscape) { 
+  *{font-size: 1rem;}
+}
