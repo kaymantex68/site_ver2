@@ -3,8 +3,8 @@ import classes from './App.module.css';
 
 function App() {
 
-  const [number, setNumber] = useState(false);
-  const [number1, setNumber1] = useState(false);
+  const [number, setNumber] = useState(true);
+  const [number1, setNumber1] = useState(true);
   const [number2, setNumber2] = useState(false);
   const [number3, setNumber3] = useState(true);
   const [number4, setNumber4] = useState(true);
@@ -25,7 +25,7 @@ function App() {
             <div className={(number3 === true) ? classes.div_left : classes.div_left_2}>
               <ul>
                 <li className={classes.Link} ><span className={classes.span_Link} onClick={() => { setNumber(!number); setNumber1(number1); setNumber2(false); setNumber3(true); setNumber4(true);}}>main</span></li>
-                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setNumber(false); setNumber1(false); setNumber2(false); setNumber3(false); setNumber4(false);}}>contacts</span></li>
+                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setNumber(false); setNumber1(false); setNumber2(false); setNumber3(false); setNumber4(false);}}>Контакты</span></li>
                 <li className={classes.Link}> <span className={classes.span_Link} onClick={() => { setNumber(number); setNumber1(!number1); setNumber2(false); setNumber3(true);setNumber4(true);}}>second</span></li>
                 <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setNumber(false); setNumber1(false); setNumber2(!number2); setNumber3(true);setNumber4(true);}}>big</span></li>
                 <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setNumber(number); setNumber1(number1); setNumber2(number2); setNumber3(!number3);setNumber4(number4);}}>left menu</span></li>
