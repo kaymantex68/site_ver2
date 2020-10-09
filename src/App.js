@@ -26,11 +26,11 @@ function App() {
           <div className={classes.div3}>
             <div className={(number3 === true) ? classes.div_left : classes.div_left_2}>
               <ul>
-                <li className={classes.Link} ><span className={classes.span_Link} onClick={() => { setfirst_col_main(true); setsecond_col_main(false);  setthird_col_main(true); setforth_col_main(false); setNumber2(false); setNumber3(true); setNumber4(true); }}>main</span></li>
-                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setfirst_col_main(false); setsecond_col_main(false); setthird_col_main(false); setforth_col_main(false); setNumber2(false); setNumber3(false); setNumber4(false); }}>contacts</span></li>
-                <li className={classes.Link}> <span className={classes.span_Link} onClick={() => { setfirst_col_main(false); setsecond_col_main(true); setthird_col_main(false); setforth_col_main(true); setNumber2(false); setNumber3(true); setNumber4(true); }}>second</span></li>
-                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setfirst_col_main(false);  setsecond_col_main(false); setthird_col_main(false); setforth_col_main(false); setNumber2(true); setNumber3(true); setNumber4(true); }}>big</span></li>
-                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setfirst_col_main(first_col_main);  setthird_col_main(third_col_main); setthird_col_main(third_col_main); setforth_col_main(forth_col_main); setNumber2(number2); setNumber3(!number3); setNumber4(number4); }}>left menu</span></li>
+                <li className={classes.Link} ><span className={classes.span_Link} onClick={() => { setfirst_col_main(true); setsecond_col_main(false);  setthird_col_main(true); setforth_col_main(false); setNumber2(false); setNumber3(true); setNumber4(true); }}>Главная</span></li>
+                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setfirst_col_main(false); setsecond_col_main(false); setthird_col_main(false); setforth_col_main(false); setNumber2(false); setNumber3(false); setNumber4(false); }}>Контакты</span></li>
+                <li className={classes.Link}> <span className={classes.span_Link} onClick={() => { setfirst_col_main(false); setsecond_col_main(true); setthird_col_main(false); setforth_col_main(true); setNumber2(false); setNumber3(true); setNumber4(true); }}>Гальваника</span></li>
+                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setfirst_col_main(false);  setsecond_col_main(false); setthird_col_main(false); setforth_col_main(false); setNumber2(true); setNumber3(true); setNumber4(true); }}>Мониторинг</span></li>
+                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setfirst_col_main(first_col_main);  setthird_col_main(third_col_main); setthird_col_main(third_col_main); setforth_col_main(forth_col_main); setNumber2(number2); setNumber3(!number3); setNumber4(number4); }}>Боковое меню</span></li>
               </ul>
             </div>
           </div>
@@ -49,7 +49,9 @@ function App() {
             </div>
           </div>
         </div>
-
+        {/* * 
+          * кнопка возврата когда скрыто меню 
+          */}
         <div onClick={() => { setNumber3(true); setNumber4(true); setfirst_col_main(true); setthird_col_main(true); }} className={(number3 === false) ? classes.Back : classes.Back_2}></div>
       </div>
 
