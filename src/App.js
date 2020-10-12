@@ -21,7 +21,7 @@ function App() {
     </div>
       <div className={classes.main_window}>
         <div className={classes.div1}>
-          <div className={(topmenu === true) ? classes.div_top_menu : classes.div_top_menu_2}>top menu</div>
+          <div className={(topmenu === true) ? classes.div_top_menu : classes.div_top_menu_2}><span className={classes.SpanLogo}>top menu</span></div>
         </div>
         <div className={classes.div2}>
           <div className={classes.div3}>
@@ -30,6 +30,7 @@ function App() {
                 <li className={classes.Link} ><span className={classes.span_Link} onClick={() => { setfirst_col_main(true); setsecond_col_main(false);  setthird_col_main(true); setforth_col_main(false); setMonitoring(false); setLeftMenu(true); setTopMenu(true); }}>Главная</span></li>
                 <li className={classes.Link}> <span className={classes.span_Link} onClick={() => { setfirst_col_main(false); setsecond_col_main(true); setthird_col_main(false); setforth_col_main(true); setMonitoring(false); setLeftMenu(true); setTopMenu(true); }}>Гальваника</span></li>
                 <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setfirst_col_main(false);  setsecond_col_main(false); setthird_col_main(false); setforth_col_main(false); setMonitoring(true); setLeftMenu(true); setTopMenu(true); }}>Мониторинг</span></li>
+                <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setfirst_col_main(false);  setsecond_col_main(false); setthird_col_main(false); setforth_col_main(false); setMonitoring(true); setLeftMenu(true); setTopMenu(true); }}>Мониторинг ПДУ</span></li>
                 <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setfirst_col_main(false); setsecond_col_main(false); setthird_col_main(false); setforth_col_main(false); setMonitoring(false); setLeftMenu(false); setTopMenu(false); }}>Контакты</span></li>
                 <li className={classes.Link}><span className={classes.span_Link} onClick={() => { setfirst_col_main(first_col_main);  setthird_col_main(third_col_main); setthird_col_main(third_col_main); setforth_col_main(forth_col_main); setMonitoring(monitoring); setLeftMenu(false); setTopMenu(topmenu); }}>Боковое меню</span></li>
               </ul>

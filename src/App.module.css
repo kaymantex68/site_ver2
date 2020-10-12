@@ -22,6 +22,9 @@
     top: 0;
     transition: 0.5s;
     color:white;
+    padding-top: 5px;
+    padding-left: 10px;
+   
 }
 
 .div_top_menu_2{
@@ -32,8 +35,14 @@
     top: -100%;
     transition: 0.5s;
     color:white;
+  
 }
 
+.SpanLogo{
+    font-size: 2rem;
+    font-family: pixel2;
+    color: #5BFFDA;
+}
 
  .div2{
     position: relative;
