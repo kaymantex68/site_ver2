@@ -1,0 +1,37 @@
+@font-face{
+    font-family: pixel2;
+    src:url('../src/pixel.ttf');
+  }
+
+.Background{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+
+}
+
+.Phone{
+    position: absolute;
+    float: left;
+    left: 45%;
+    padding: 10px;
+    /* background-color: crimson; */
+    
+}
+
+
+.Cayman{
+    font-family: pixel2;
+    font-size: 2rem;
+    color: #5BFFDA;
+}
+
+.Automation{
+    color:#FF48BE;
+}
