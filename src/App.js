@@ -117,11 +117,11 @@ function App() {
             <div className={(forth_col_main === true) ? classes.div66 : classes.div66_2}>И здесь все тоже самое, совершенно не важные вещи, так всякая фигня что бы затестить блок</div>
 
             <div className={(monitoring === true) ? classes.div7 : classes.div7_2}>
-              <din className={classes.div8}>
+              
                 <iframe src="http://newsiterad.teplotehnika68.ru/pic.php" width="100%" height="100%" frameborder="no" sandbox seamless>
                 </iframe>
 
-              </din>
+             
             </div>
           </div>
         </div>
