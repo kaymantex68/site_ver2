@@ -38,8 +38,14 @@
 }
 
 .Cayman{
+    position: absolute;
+    font-size: 120%;
+    left: 50%;
+    top: 210px;
+    transform: translateX(-50%);
+
     font-family: pixel2;
-    font-size: 2rem;
+    font-size: 3.3rem;
     color: #5BFFDA;
 }
 

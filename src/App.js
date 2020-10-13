@@ -48,9 +48,9 @@ function App() {
           <div className={classes.div3}>
 
             <div className={(leftmenu === true) ? classes.div_left : classes.div_left_2}>
-              <div className={classes.bigLogo}>
+              {/* <div className={classes.bigLogo}>
                 <img src={logo}></img>
-              </div>
+              </div> */}
               <ul>
 
                 <li className={classes.Link} ><span className={classes.span_Link} onClick={() => { setfirst_col_main(true); setsecond_col_main(false); setthird_col_main(true); setforth_col_main(false); setMonitoring(false); setLeftMenu(true); setTopMenu(true); }}>Главная</span></li>
@@ -71,19 +71,18 @@ function App() {
           <div className={classes.div4} >
             <div className={(first_col_main === true) ? classes.div5 : classes.div5_2}>
               <p className={classes.upWord}>С какими ПЛК работаем</p>
-              <p>- Schneider Electric: modicon m221, modicon m241</p>
+              <p>- Schneider Electric ---> modicon m221, modicon m241</p>
               <p>- ПЛК Овен (весь модельный ряд)</p>
               <p>- Segnetics</p>
               <p>- WAGO</p>
               <p>- Arduino-совместимые контроллеры</p>
               <p>- Raspberry PI</p>
-              <p>Программируем на ST, CFC, FBD</p>
-              <p></p>
               <p className={classes.upWord} >Среды разработки</p>
               <p>- Codesys</p>
               <p>- EcoStruxure Machine Expert</p>
               <p>- Node-RED</p>
-              <p className={classes.upWord} >Вспомогательные языки программирования</p>
+              <p className={classes.upWord} >Языки программирования</p>
+              <p>- Языки IEC 61131-3 ---> ST,FBD,CFC,SFC,LD,IL</p>
               <p>- JavaScript</p>
               <p>- Python</p>
               <p>- C++</p>
@@ -93,6 +92,17 @@ function App() {
               <p>- Master scada</p>
               <p>- Lectus</p>
               <p>- OWEN OPC</p>
+              <p className={classes.upWord} >Панели оператора</p>
+              <p>- Weintek</p>
+              <p>- ОВЕН СП3хх</p>
+              <p>- Kinco</p>
+              <p className={classes.upWord} >UI-интерфейс</p>
+              <p>- web-приложение на базе React,JavaScript,PHP</p>
+              <p>- web-визуализация на базе HomeAssistant</p>
+              <p>- web-визуализация Codesys 3.5</p>
+              
+              
+               
 
 
 
@@ -101,7 +111,9 @@ function App() {
             </div>
             <div className={(second_col_main === true) ? classes.div55 : classes.div55_2}>Просто какая то информация которая не имеет никакого значения, она нужна только для теста</div>
 
-            <div className={(third_col_main === true) ? classes.div6 : classes.div6_2}>И здесь все тоже самое, совершенно не важные вещи, так всякая фигня что бы затестить блок</div>
+            <div className={(third_col_main === true) ? classes.div6 : classes.div6_2}>
+              <img src="../src/img/klemma.jpg"></img>
+            </div>
             <div className={(forth_col_main === true) ? classes.div66 : classes.div66_2}>И здесь все тоже самое, совершенно не важные вещи, так всякая фигня что бы затестить блок</div>
 
             <div className={(monitoring === true) ? classes.div7 : classes.div7_2}>
