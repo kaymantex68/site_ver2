@@ -9,29 +9,54 @@
     width: 100%;
     height: 100%;
     padding-top: 100px;
-    text-align: center;
+    /* text-align: center; */
     background-color: black;
     color: white;
+    text-align: center;
 
 
 }
 
 .Phone{
     position: absolute;
-    float: left;
-    left: 45%;
-    padding: 10px;
+    left: 50%;
+    top: 300px;
+    transform: translateX(-50%);
+    padding-top: 10px;
     /* background-color: crimson; */
+    
     
 }
 
+.LogoContacts{
+    position: relative;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+}
 
 .Cayman{
+    position: absolute;
+    font-size: 120%;
+    left: 50%;
+    top: 210px;
+    transform: translateX(-50%);
+
     font-family: pixel2;
-    font-size: 2rem;
+    font-size: 3.3rem;
     color: #5BFFDA;
 }
 
 .Automation{
+    position: absolute;
+    font-size: 120%;
+    left: 50%;
+    top: 250px;
+    transform: translateX(-50%);
     color:#FF48BE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
