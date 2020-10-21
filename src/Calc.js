@@ -39,12 +39,12 @@ function Calc() {
     }
     return (
         <div className={classes.CalcMain}>
-            <p className={classes.p_ABZ}>Ток нулевого проводника 3х фазной цепи при нессиметричной нагрузке</p>
-            <p className={classes.p_ABZ}>Фаза А</p>
+            <p className={classes.p_ABZ}>Ток нулевого проводника <span className={classes.Pink}>3х ФАЗНОЙ</span> цепи при <span className={classes.Pink}>НЕССИМЕТРИЧНОЙ</span> нагрузке</p>
+            <p className={classes.p_ABZ}><span className={classes.Green}>Фаза А</span></p>
             <input className={classes.i_ABZ} type="text" onChange={(e) => { setA(e.target.value); }} />
-            <p className={classes.p_ABZ}>Фаза B</p>
+            <p className={classes.p_ABZ}><span className={classes.Green}>Фаза B</span></p>
             <input className={classes.i_ABZ} type="text" onChange={(e) => { setB(e.target.value); }} />
-            <p className={classes.p_ABZ}>Фаза C</p>
+            <p className={classes.p_ABZ}><span className={classes.Green}>Фаза C</span></p>
             <input className={classes.i_ABZ} type="text" onChange={(e) => { setC(e.target.value); }} />
             <div>
                 <span className={classes.button} onClick={CurrentN}>Расчитать</span>
