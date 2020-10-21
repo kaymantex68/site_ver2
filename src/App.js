@@ -32,8 +32,8 @@ function App() {
 
           <div className={(topmenu === true) ? classes.div_top_menu : classes.div_top_menu_2}>
             {/* <div className={classes.logo}><span className={classes.SpanLogo}>CAYMAN</span></div> */}
-            <div className={classes.otstup}>отступ</div>
-            <div>
+            <div className={classes.otstup}></div>
+            <div className={classes.div_top}>
               <ul className={classes.Ul_top}>
                 <li className={classes.Li_top}>
                   <span className={classes.span_Link} onClick={() => { setMainWindow(true); setCalcWindow(false) }}>Главная</span>
@@ -52,8 +52,8 @@ function App() {
 
         <div className={(calcWindow === true) ? classes.CalcMain_on : classes.CalcMain_off}>
           <Calc />
-        </div>   
-     
+        </div>
+
         <div className={(mainWindow === true) ? classes.div2_on : classes.div2_off}>
           <div className={classes.div3}>
             <div className={(leftmenu === true) ? classes.div_left : classes.div_left_2}>
@@ -122,10 +122,10 @@ function App() {
         {/* * 
           * кнопка возврата когда скрыто меню 
           */}
-       
+
         <div onClick={() => { setLeftMenu(true); setTopMenu(true); setfirst_col_main(true); setthird_col_main(true); }} className={(leftmenu === false) ? classes.Back : classes.Back_2}></div>
-        </div>
-      
+      </div>
+
 
     </>
 
