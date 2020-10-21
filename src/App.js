@@ -116,7 +116,7 @@ function App() {
             <div className={(third_col_main === true) ? classes.div6 : classes.div6_2}>
             
               <div className={classes.Slider1} ><Slider /></div>
-              <div className={classes.Slider1} ><Slider /></div>
+              <div className={classes.Slider1} ></div>
             </div>
             <div className={(forth_col_main === true) ? classes.div66 : classes.div66_2}>И здесь все тоже самое, совершенно не важные вещи, так всякая фигня что бы затестить блок</div>
 

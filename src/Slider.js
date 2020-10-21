@@ -4,7 +4,7 @@ import i1 from '../src/pics/1.jpg'
 import i2 from '../src/pics/2.jpg'
 import i3 from '../src/pics/3.jpg'
 import i4 from '../src/pics/4.jpg'
-import i5 from '../src/pics/5.jpg'
+import i5 from '../src/pics/5.png'
 import ImgComp from './ImgComp'
 function Slider(){
     let slideArr=[
