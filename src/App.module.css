@@ -369,8 +369,8 @@
     position:absolute;
     width: 100%;
     height:95vh;
-    grid-template-columns: 20% auto ;
-    background-color: darkorange;
+    
+    background-color: #18181A;
     overflow: hidden;
     left: 0;
     transition: 0.5s;
@@ -381,8 +381,8 @@
     position:absolute;
     width: 100%;
     height:95vh;
-    grid-template-columns: 20% auto ;
-    background-color: darkorange; 
+    
+    background-color: #18181A;
     overflow: hidden;
     left: -100%;
     transition: 0.5s;

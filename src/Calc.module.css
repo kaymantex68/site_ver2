@@ -1,0 +1,47 @@
+.i_ABZ{
+    position: relative;
+    
+    color: white;
+    border-radius: 5px;
+    
+    background-color:  #18181A;
+    border: solid #39393D 2px;
+    margin-bottom: 10px;
+}
+
+.p_ABZ{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.CalcMain{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    border: solid #39393D 1px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+
+.button{
+    
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: auto;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+    color:black;
+    background-color: #5BFFDA;
+}
+

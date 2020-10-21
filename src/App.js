@@ -3,6 +3,7 @@ import classes from './App.module.css';
 import Contacts from './Contacts'
 import logo from './cayman.svg'
 import Slider from './Slider'
+import Calc from './Calc'
 function App() {
   const [mainWindow, setMainWindow] = useState(true);
   const [calcWindow, setCalcWindow] = useState(false);
@@ -49,7 +50,9 @@ function App() {
 
         </div>
 
-        <div className={(calcWindow === true) ? classes.CalcMain_on : classes.CalcMain_off}>Калькулятор</div>   
+        <div className={(calcWindow === true) ? classes.CalcMain_on : classes.CalcMain_off}>
+          <Calc />
+        </div>   
      
         <div className={(mainWindow === true) ? classes.div2_on : classes.div2_off}>
           <div className={classes.div3}>
